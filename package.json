@@ -1,0 +1,18 @@
+{
+  "name": "smartumhelper_bot",
+  "version": "1.0.0",
+  "description": "Helper bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Pavel Finagin",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^2.0.20"
+  }
+}
